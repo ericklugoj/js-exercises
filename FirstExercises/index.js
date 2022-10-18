@@ -1,4 +1,16 @@
 // TODO
 //Change hola mundo to me la pela Rivas
-const title =  document.querySelector("h1").innerHTML = "me la pela Rivas";
-const title3 =  document.querySelector(".hola").innerHTML = "Te amo Lugo";
+
+const title = "Hola mundo v2";
+const element = "h1";
+
+const TIME = 3000; 
+
+function changeTitle(tag,text){
+    document.querySelector(tag).innerHTML = text;
+}
+
+
+setTimeout(() => {
+    changeTitle(element,title);
+}, TIME);
