@@ -14,3 +14,5 @@ function changeTitle(tag,text){
 setTimeout(() => {
     changeTitle(element,title);
 }, TIME);
+
+

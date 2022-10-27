@@ -14,3 +14,10 @@ que diga:
 si es de mexico y tiene 18 años o mas mostrar el mensaje eres mayor de edad en tu pais, si no, mostrar eres menor de edad.
 
 si es de usa y tiene 21 años o mas mostrar el mensaje eres mayor de edad en tu pais, si no, mostrar eres menor de edad.
+
+
+<form>
+    <input>
+
+    button
+</form>

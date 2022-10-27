@@ -4,27 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercise 1</title>
+    <title>Document</title>
 </head>
 <body>
     <h1 class="hola">Hola mundo</h1>
 
     <div>
-        <form id="my-form" onsubmit="return false;">
+        <form id="userForm" >
           <label for="name">Name:</label>
           <input type="text" name="name" id="name"></input>
           <label for="birthDay">BirthDay:</label>
           <input type="date" name="name" id="birth"></input>
           <label for="nacionality">Nacionality:</label>
-          <select name="languages" id="lang">
-            <option value="Mexican">Mexican</option>
-            <option value="American">American</option>
+          <select name="country" id="country">
+            <option value="mexican">Mexican</option>
+            <option value="american">American</option>
           </select>
-          <button type="submit" id="submit">Submit</button>
-        </form>
-      
+          <button type="submit">Submit</button>
+        </form>     
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
-    <script src="/FirstExercises/index.js"></script>
+    <h2 id="age"></h1>
+    <script src="index.js"></script>
 </body>
 </html>
